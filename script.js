@@ -199,3 +199,12 @@ document.body.style.opacity="1";
 console.log("%cWelcome to NSI Technologies",
 
 "font-size:24px;color:#00bfff;font-weight:bold;");
+const menu=document.querySelector(".menu-toggle");
+
+const nav=document.querySelector(".nav-links");
+
+menu.onclick=()=>{
+
+nav.classList.toggle("active");
+
+}
